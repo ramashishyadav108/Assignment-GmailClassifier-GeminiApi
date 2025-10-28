@@ -90,6 +90,7 @@ export default function EmailsPage() {
     if (emails.length > 0) {
       fetchEmails();
     }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [emailCount]);
 
   const classifyEmails = async () => {
